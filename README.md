@@ -152,11 +152,11 @@ cd C:\Add_HyperV_VM
 ```
 **For Microsoft Dynamics 365 VM**
 ```sh
-.\Add_VM.ps1 -vmName "D365VM" -vmType = "d365" -vmMem 24GB -cpuCount 12 -vhdFileName "FinandOps10.0.17.vhd" -vmSwitch "nSwitch" -srcDirPath "Path" -destDirPath "Path" -threadCount 16 -serverName "localhost" -vmDefaultUsername "Administrator" -vmDefaultPassword "pass@word1" -ipAddress "192.168.0.10" -defaultGateway "192.168.0.1" -dnsServer "8.8.8.8" -subnetMask 24 -vmPort "123456" -ownerName "Name" -createdBy "Creator" -department "Department" -supervisorName "Supervisor"
+.\Add_VM.ps1 -vmName "D365VM" -vmType "d365" -vmMem 24GB -cpuCount 12 -vhdFileName "FinandOps10.0.17.vhd" -vmSwitch "nSwitch" -srcDirPath "Path" -destDirPath "Path" -threadCount 16 -serverName "localhost" -vmDefaultUsername "Administrator" -vmDefaultPassword "pass@word1" -ipAddress "192.168.0.10" -defaultGateway "192.168.0.1" -dnsServer "8.8.8.8" -subnetMask 24 -vmPort "123456" -ownerName "Name" -createdBy "Creator" -department "Department" -supervisorName "Supervisor"
 ```
 **For Microsoft Dynamics AX VM**
 ```sh
-.\Add_VM.ps1 -defaultVMName "MSD_AX_VM" -vmName "NewAxVM" -vmType = "ax" -vmSwitch "nSwitch" -srcDirPath "Path" -destDirPath "Path" -serverName "localhost" -vmDefaultUsername "AX_Dev" -ipAddress "192.168.0.10" -defaultGateway "192.168.0.1" -dnsServer "8.8.8.8" -subnetMask 24 -ownerName "Name" -createdBy "Creator" -department "Department" -supervisorName "Supervisor"
+.\Add_VM.ps1 -defaultVMName "MSD_AX_VM" -vmName "NewAxVM" -vmType "ax" -vmSwitch "nSwitch" -srcDirPath "Path" -destDirPath "Path" -serverName "localhost" -vmDefaultUsername "AX_Dev" -ipAddress "192.168.0.10" -defaultGateway "192.168.0.1" -dnsServer "8.8.8.8" -subnetMask 24 -ownerName "Name" -createdBy "Creator" -department "Department" -supervisorName "Supervisor"
 ```
 
    7. For AX VM (Only)
