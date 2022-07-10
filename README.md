@@ -72,10 +72,10 @@ This script automates the following process:
 9. Create second session object to perform configurations within Virtual Machine.  
 10. Following configurations are performed:
     > Only for Dynamics 365 Virtual Machine:
-    - 8.1 Configure SQL server instance.
-    - 8.2 Configure SSMS: Adds Login.
-    - 8.3 Configure SSMS: Assigns Server Role.
-    - 8.4 Renew windows server license.
+    - 10.1 Configure SQL server instance.
+    - 10.2 Configure SSMS: Adds Login.
+    - 10.3 Configure SSMS: Assigns Server Role.
+    - 10.4 Renew windows server license.
         > - Configure SSRS. Help resource: https://github.com/mrsquish/AutomationScripts/blob/main/ConfigureSSRS.ps1
         > - ***No Longer Required for This Script.***
 11. Update User password.
